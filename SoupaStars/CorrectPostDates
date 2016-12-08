@@ -1,0 +1,10 @@
+use SoupaStars;
+
+select * from Comments;
+UPDATE `SoupaStars`.`Post` SET `PostMonth`='October', `PostDay`='23' WHERE `PostID`='1';
+UPDATE `SoupaStars`.`Post` SET `PostMonth`='October', `PostDay`='29' WHERE `PostID`='2';
+UPDATE `SoupaStars`.`Post` SET `PostDay`='8' WHERE `PostID`='3';
+UPDATE `SoupaStars`.`Post` SET `PostMonth`='November', `PostDay`='14' WHERE `PostID`='4';
+
+insert Comments (commentText, userName, email, commentDate)
+	values ('asdf','asdf','asdf','asdf');
